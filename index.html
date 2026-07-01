@@ -52,18 +52,25 @@ font-weight:bold;
 }
 
 .hero{
+
 min-height:90vh;
 display:flex;
 align-items:center;
 justify-content:center;
 padding:80px 10%;
-background:
-linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
-url('hero.jpg');
-background-size:cover;
-background-position:center;
-}
 
+background-image:
+linear-gradient(
+rgba(5,10,25,0.45),
+rgba(5,10,25,0.75)
+),
+url("hero-background.jpg");
+
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat;
+
+}
 .hero-content{
 max-width:700px;
 text-align:center;
